@@ -1,26 +1,75 @@
-## ravynOS EFI Loader for XNU
+[update-readmes]   Mode: rewrite — migrating to template structure...
+# efiloader
 
-A simple EFI boot loader for ravynOS.
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/efiloader)
 
-#### Source Code
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-In the folder `./MdeModulePkg/Application/Loader`
+## Architecture
 
-#### Build Instructions
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
 
-Set `SDK` to the path to your ravynOS SDK root. The default is `/Library/Developer/ravynOS.sdk`. The SDK is a product of the OS build, found under `<buildroot>/Developer/Platforms/ravynOS.platform/Developer/SDKs/ravynOS.sdk`.
+## Install
 
-From a POSIX shell, run `./buildloader.sh`. The output will be in `./Build/EmulatorX64/DEBUG_<compiler>/X64/loader.efi`. On macOS, the `<compiler>` is `XCODE5`. On Windows, it is generally `VS2022`. On most other systems it is `GCC`. 
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
 
-Copy `loader.efi` to the ESP and boot.
+```bash
+git clone https://github.com/Interested-Deving-1896/efiloader.git
+cd efiloader
+```
 
-#### Prerequisites
+## Usage
 
-EFILoader is based on [TianoCore EDK2](ReadMe.rst), which will be built first on a clean build. You'll need a host with:
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
 
- * nasm
- * clang 16 or 17
- * python 3.7+
+## Configuration
 
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
 
- You'll also need `mtoc` if on macOS. It's easily installed from [Brew](https://brew.sh/) with `brew install mtoc`.
+## CI
+
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
+
+## Mirror chain
+
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/efiloader`](https://github.com/Interested-Deving-1896/efiloader) and mirrored through:
+
+```
+Interested-Deving-1896/efiloader  ──►  OpenOS-Project-OSP/efiloader  ──►  OpenOS-Project-Ecosystem-OOC/efiloader
+```
+
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
+
+## Contributors
+
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
+
+## Origins
+
+<!-- AI:start:origins -->
+_Original project — no upstream fork._
+<!-- AI:end:origins -->
+
+## Resources
+
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
+
+## License
+
+<!-- AI:start:license -->
+<!-- License not detected — add a LICENSE file to this repo. -->
+<!-- AI:end:license -->
